@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .div1 {
+            background-color: #ff670f;
+            width: 100%;
+            height: 250px;
+        }
+
+        .menu {
+            background-color: white;
+            width: 100%;
+            height: 80px;
+        }
+
+        .lbbs {
+            height: 33em;
+            width: 20%;
+            background-color: white;
+            border-radius: 5px;
+            margin: -46em 977px;
+
+        }
+
+        .lbbspic {
+            margin-left: 50px;
+        }
+
+        .lbbspara {
+            color: #006699;
+            font-size: smaller;
+        }
+
+        .pic2 {
+            float: left;
+            position: relative;
+            align-content: center;
+            top: 5px;
+            left: 30%;
+            margin-right: 100px;
+        }
+
+        .pic1 {
+            margin-left: 28px;
+            margin-top: 30px;
+            border: 4px solid rgb(0, 0, 0);
+        }
+
+        .pic3 {
+            margin-left: 53%;
+        }
+
+        .pic4 {
+            margin-right: -50%;
+        }
+
+        .head {
+            margin-left: 12%;
+        }
+
+        .head3 {
+            margin-left: 5%;
+            margin-top: 15px;
+        }
+
+        .playbutton {
+            margin-left: 110px;
+            margin-top: 16px;
+            justify-content: center;
+        }
+
+        .footer {
+            height: 21em;
+            width: 3000x;
+            margin-top: 1200px;
+            background-color: #21070c;
+            margin-bottom: -10px;
+        }
+
+        .barh3 {
+            margin-left: 14%;
+            margin-top: 10%;
+            color: white;
+        }
+
+        .barh31 {
+            margin-left: 40%;
+            color: white;
+            margin-top: -10.50%;
+        }
+
+        .barh32 {
+            margin-left: 65%;
+            color: white;
+            margin-top: -13.85%;
+        }
+
+        .locationimg {
+            width: 24px;
+            height: 24px;
+            margin-left: 64.80%;
+            margin-top: 10px;
+        }
+
+        .phoneimg1 {
+            width: 24px;
+            height: 24px;
+            margin-left: 64.80%;
+            margin-top: -15px;
+        }
+
+        .phoneimg2 {
+            width: 24px;
+            height: 24px;
+            margin-left: 64.80%;
+            margin-top: -14px;
+        }
+
+        .mailimg {
+            width: 24px;
+            height: 24px;
+            margin-left: 64.80%;
+            margin-top: 14px;
+        }
+
+        .globe {
+            width: 24px;
+            height: 24px;
+            margin-left: 64.80%;
+            margin-top: -10px;
+        }
+
+        .menu ul {
+            display: flex;
+            margin: 0;
+            list-style: none;
+        }
+
+        .menu ul li {
+
+            margin: 30px;
+            color: red;
+        }
+
+        .menu ul li a {
+            text-align: center;
+            color: black;
+            padding: 30px;
+            font-size: 25px;
+            text-decoration: none;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            text-transform: uppercase;
+
+        }
+
+        .menu ul li {
+            transition: 0.3s ease;
+            color: #ffffff;
+        }
+
+        .menu ul li :hover {
+            color: orangered;
+        }
+
+        .contac {
+            height: 49em;
+            width: 33em;
+            margin-left: 18%;
+            margin-top: 30px;
+            border: 3px solid black;
+            border-radius: 5px;
+            background-color: white;
+
+        }
+
+        .conh2 {
+            margin-left: 20px;
+            color: black;
+            text-align: center;
+            margin-top: 35px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: 30px;
+        }
+
+        .map{
+            margin-left: 24px;
+            box-shadow: 2px 2px 4px rgb(125, 125, 125);
+        }
+
+        .mapp{
+            margin-left: 24px;
+            color: black;
+            margin-right: 24px;
+            font-size: 19.50px;
+        }
+
+        .phoneimg3{
+            width: 25px;
+            height: 25px;
+            margin-left: 25px;
+            margin-top: 20px;
+        }
+
+        .phonep{
+            margin-left: 55px;
+            margin-top: -27px;
+            font-size: 19.50px;
+            font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+
+        .headphone1{
+            width: 25px;
+            height: 25px;
+            margin-left: 25px;
+            margin-top: -13px;
+        }
+
+        .headphone1p{
+            margin-left: 55px;
+            margin-top: -30px;
+            font-size: 19.50px;
+            font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+
+        .webp{
+            font-size: 19.50px;
+            font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            margin-left: 26px;
+            margin-top: -7px;
+        }
+
+        .webp2{
+            font-size: 19.50px;
+            font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            margin-left: 26px;
+            margin-top: -7px;
+        }
+
+        .prinp{
+            font-size: 20px;
+            font-weight: bold;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            margin-left: 25px;
+        }
+
+        .phoneimg4{
+            width: 25px;
+            height: 25px;
+            margin-left: 25px;
+            margin-top: 5px;
+        }
+
+        .phonep2{
+            margin-left: 55px;
+            margin-top: -28px;
+            font-size: 19.50px;
+            font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+
+        .webp3{
+            font-size: 19.50px;
+            font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            margin-left: 26px;
+            margin-top: -7px;
+        }
+
+        .hosp{
+            font-size: 20px;
+            font-weight: bold;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            margin-left: 25px;
+        }
+
+        .headphone2{
+            width: 25px;
+            height: 25px;
+            margin-left: 25px;
+            margin-top: 4px;
+        }
+
+        .headphone2p{
+            margin-left: 55px;
+            margin-top: -30px;
+            font-size: 19.50px;
+            font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+
+    </style>
+</head>
+
+<body style="background-color: rgb(72, 28, 5);" class="div2">
+    <div class="div1">
+        <img class="pic2" src="https://ssvidyavihardumka.com/assets/images/logo-ssvv.png">
+        <img class="pic4" src="https://ssvidyavihardumka.com/assets/images/top_banner.png">
+        <img class="pic3" src="https://ssvidyavihardumka.com/assets/images/banner.jpg">
+    </div>
+
+    <div class="menu">
+        <ul>
+            <li><a href="./S.S.VIDYA.VIHAR.html">Home</a></li>
+            <li><a href="./About.html">About</a></li>
+            <li><a href="./Curriculum.html">Curriculum</a></li>
+            <li><a href="./facilities.html">Facilities</a></li>
+            <li><a href="./gallery.html">Gallery</a></li>
+            <li><a href="./contact.html">Contact</a></li>
+            <li><a href="./guide.html">Guide</a></li>
+        </ul>
+    </div>
+
+    <!-- Intro Para-->
+
+    <div class="contac">
+        <h2 class="conh2">Contact Us</h2>
+        <iframe class="map"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3636.9826285191257!2d87.24397881464547!3d24.27733728433226!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f0b7b96f7444b1%3A0xc92361cb55dbc466!2sS.S%20Vidya%20Vihar!5e0!3m2!1sen!2sin!4v1660461603573!5m2!1sen!2sin"
+            width="600" height="350" style="border:5px double rgb(72, 72, 72);" margin-left="55px" allowfullscreen=""
+            loading="eager" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <p class="mapp">The school is situated at well connected, centrally located zone of Dumka (heart of Dumka) 
+            at New Kumar Para, Near Dudhani-Rasikpur Ashram Road approximately 1km from Dumka Bus Stand and Dumka Railway Station.</p>
+        <img class="phoneimg3" src="data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHZpZXdCb3g9IjAgMCAxNzIgMTcyIj48ZyBmaWxsPSJub25lIiBmaWxsLXJ1bGU9Im5vbnplcm8iIHN0cm9rZT0ibm9uZSIgc3Ryb2tlLXdpZHRoPSIxIiBzdHJva2UtbGluZWNhcD0iYnV0dCIgc3Ryb2tlLWxpbmVqb2luPSJtaXRlciIgc3Ryb2tlLW1pdGVybGltaXQ9IjEwIiBzdHJva2UtZGFzaGFycmF5PSIiIHN0cm9rZS1kYXNob2Zmc2V0PSIwIiBmb250LWZhbWlseT0ibm9uZSIgZm9udC13ZWlnaHQ9Im5vbmUiIGZvbnQtc2l6ZT0ibm9uZSIgdGV4dC1hbmNob3I9Im5vbmUiIHN0eWxlPSJtaXgtYmxlbmQtbW9kZTogbm9ybWFsIj48cGF0aCBkPSJNMCwxNzJ2LTE3MmgxNzJ2MTcyeiIgZmlsbD0ibm9uZSI+PC9wYXRoPjxnIGZpbGw9IiMwMDAwMDAiPjxwYXRoIGQ9Ik0xMzcuNzQzMzMsMTA5LjI5MTY3bC0xOC4wNiwtMi4wNzgzM2MtNC4zNzE2NywtMC41MDE2NyAtOC42NzE2NywxLjAwMzMzIC0xMS43NTMzMyw0LjA4NWwtMTMuMjU4MzMsMTMuMjU4MzNjLTEwLjE2OTUsLTUuMTYgLTE5LjM5MywtMTEuODg5NSAtMjcuMzYyMzMsLTE5Ljg2NmMtNy45NzY1LC03Ljk2OTMzIC0xNC43MDYsLTE3LjE5MjgzIC0xOS44NjYsLTI3LjM2MjMzbDEzLjI1ODMzLC0xMy4yNTgzM2MzLjA4MTY3LC0zLjA4MTY3IDQuNTg2NjcsLTcuMzgxNjcgNC4wODUsLTExLjc1MzMzbC0yLjA3ODMzLC0xOC4wNmMtMC44NiwtNy4yMzgzMyAtNi45NTE2NywtMTIuNjg1IC0xNC4yNjE2NywtMTIuNjg1aC0xMi4zOTgzM2MtOC4wOTgzMywwIC0xNC44MzUsNi43MzY2NyAtMTQuMzMzMzMsMTQuODM1YzEuODk5MTcsMzAuNTk0NSAxNS4wNzg2Nyw1OC4xMDczMyAzNS40MjQ4Myw3OC40NTM1YzIwLjM0NjE3LDIwLjM0NjE3IDQ3Ljg1OSwzMy41MjU2NyA3OC40NTM1LDM1LjQyNDgzYzguMDk4MzMsMC41MDE2NyAxNC44MzUsLTYuMjM1IDE0LjgzNSwtMTQuMzMzMzN2LTEyLjM5ODMzYzAsLTcuMzEgLTUuNDQ2NjcsLTEzLjQwMTY3IC0xMi42ODUsLTE0LjI2MTY3eiI+PC9wYXRoPjwvZz48L2c+PC9zdmc+">
+        <p class="phonep">06434-357116</p>
+        <img class="headphone1" src="https://img.icons8.com/external-smashingstocks-glyph-smashing-stocks/344/external-headphone-network-and-communication-smashingstocks-glyph-smashing-stocks.png">
+        <p class="headphone1p">+91-6206486592, +91-8873008796 (Office)</p>
+        <p class="webp">@ ssvidyavihardumka@yahoo.com</p>
+        <p class="webp2">@ ssvidyavihardumka@yahoo.com</p>
+        <p class="prinp">Principal</p>
+        <img class="phoneimg4" src="data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHZpZXdCb3g9IjAgMCAxNzIgMTcyIj48ZyBmaWxsPSJub25lIiBmaWxsLXJ1bGU9Im5vbnplcm8iIHN0cm9rZT0ibm9uZSIgc3Ryb2tlLXdpZHRoPSIxIiBzdHJva2UtbGluZWNhcD0iYnV0dCIgc3Ryb2tlLWxpbmVqb2luPSJtaXRlciIgc3Ryb2tlLW1pdGVybGltaXQ9IjEwIiBzdHJva2UtZGFzaGFycmF5PSIiIHN0cm9rZS1kYXNob2Zmc2V0PSIwIiBmb250LWZhbWlseT0ibm9uZSIgZm9udC13ZWlnaHQ9Im5vbmUiIGZvbnQtc2l6ZT0ibm9uZSIgdGV4dC1hbmNob3I9Im5vbmUiIHN0eWxlPSJtaXgtYmxlbmQtbW9kZTogbm9ybWFsIj48cGF0aCBkPSJNMCwxNzJ2LTE3MmgxNzJ2MTcyeiIgZmlsbD0ibm9uZSI+PC9wYXRoPjxnIGZpbGw9IiMwMDAwMDAiPjxwYXRoIGQ9Ik0xMzcuNzQzMzMsMTA5LjI5MTY3bC0xOC4wNiwtMi4wNzgzM2MtNC4zNzE2NywtMC41MDE2NyAtOC42NzE2NywxLjAwMzMzIC0xMS43NTMzMyw0LjA4NWwtMTMuMjU4MzMsMTMuMjU4MzNjLTEwLjE2OTUsLTUuMTYgLTE5LjM5MywtMTEuODg5NSAtMjcuMzYyMzMsLTE5Ljg2NmMtNy45NzY1LC03Ljk2OTMzIC0xNC43MDYsLTE3LjE5MjgzIC0xOS44NjYsLTI3LjM2MjMzbDEzLjI1ODMzLC0xMy4yNTgzM2MzLjA4MTY3LC0zLjA4MTY3IDQuNTg2NjcsLTcuMzgxNjcgNC4wODUsLTExLjc1MzMzbC0yLjA3ODMzLC0xOC4wNmMtMC44NiwtNy4yMzgzMyAtNi45NTE2NywtMTIuNjg1IC0xNC4yNjE2NywtMTIuNjg1aC0xMi4zOTgzM2MtOC4wOTgzMywwIC0xNC44MzUsNi43MzY2NyAtMTQuMzMzMzMsMTQuODM1YzEuODk5MTcsMzAuNTk0NSAxNS4wNzg2Nyw1OC4xMDczMyAzNS40MjQ4Myw3OC40NTM1YzIwLjM0NjE3LDIwLjM0NjE3IDQ3Ljg1OSwzMy41MjU2NyA3OC40NTM1LDM1LjQyNDgzYzguMDk4MzMsMC41MDE2NyAxNC44MzUsLTYuMjM1IDE0LjgzNSwtMTQuMzMzMzN2LTEyLjM5ODMzYzAsLTcuMzEgLTUuNDQ2NjcsLTEzLjQwMTY3IC0xMi42ODUsLTE0LjI2MTY3eiI+PC9wYXRoPjwvZz48L2c+PC9zdmc+">
+        <p class="phonep2">+91-7050303499</p>
+        <p class="webp3">@  principal@ssvidyavihardumka.com</p>
+        <p class="hosp">Hostel In-Charge</p>
+        <img class="headphone2" src="https://img.icons8.com/external-smashingstocks-glyph-smashing-stocks/344/external-headphone-network-and-communication-smashingstocks-glyph-smashing-stocks.png">
+        <p class="headphone2p">+91-8873008796</p>
+    </div>
+    <div class="lbbs">
+        <img class="lbbspic" src="https://ssvidyavihardumka.com/assets/images/babu.png">
+        <marquee direction="up" hspace="30" scrollamount="5" height="43%" id="mymarquee">
+            <p class="lbbspara"> IS OPEN FROM NURSERY TO CLASS-IX & CLASS-XI (SCIENCE, COMMERCE & ARTS) SESSION 2022-23.
+                REGISTRATION FORMS<br>
+                ARE AVAILABLE INSIDE THE SCHOOL CAMPUS.
+                <hr>
+            <p class="lbbspara">
+                DECLARED ON 21-03-2022 (MONDAY) ADMISSION, ANNUAL SESSIONAL CHARGES, FEE BOOK, BOOKS & NOTEBOOKS CAN BE
+                COLLECTED FROM SCHOOL IN BETWEEN 22ND MARCH TO 3RD APRIL, CLASSES WILL START FROM 4TH APRIL (MONDAY)
+                INSIDE SCHOOL CAMPUS.
+            </p>
+            </hr>
+            </p>
+        </marquee>
+        <img class="playbutton"
+            src="data:image/png;base64,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"
+            width="30" height="30" onclick="document.getElementById('mymarquee').stop();" />
+        <img src="https://iconsplace.com/wp-content/uploads/_icons/ffa500/256/png/pause-icon-11-256.png" width="30"
+            height="30" alt="Start button" onclick="document.getElementById('mymarquee').start();" />
+    </div>
+
+    <!--Footer-->
+    <footer class="footer">
+        <h3 class="barh3" style="margin-top: 100px;">How to Reach</h3>
+        <hr style="width: 20%; margin-left: 14%;margin-top: -10px;">
+        <p style="margin-left: 14%; color: white; margin-top: 12px; margin-right: 64%;">The school is situated at well
+            connected, centrally located zone of Dumka (heart of Dumka) at New Kumar Para, Near Dudhani-Rasikpur Ashram
+            Road approximately 1km from Dumka Bus Stand and Dumka Railway Station.</p>
+        <h3 class="barh31">Our Branches</h3>
+        <hr style="width: 22%; margin-left: 40%;margin-top: -10px;">
+        <p
+            style="margin-left: 40%; color: white; margin-top: 13px; margin-right: 38.50%; font-size: small; font-weight: 500;">
+            S.K.P. VIDYA-VIHAR, BHAGALPUR</p>
+        <p
+            style="margin-left: 40%; color: white; margin-top: 13px; margin-right: 38.50%; font-size: small; font-weight: 500;">
+            S.B.P. VIDYA-VIHAR, KATIHAR</p>
+        <p
+            style="margin-left: 40%; color: white; margin-top: 13px; margin-right: 38.50%; font-size: small; font-weight: 500;">
+            S.B.P. VIDYA-VIHAR, BOUNSI</p>
+        <p
+            style="margin-left: 40%; color: white; margin-top: 13px; margin-right: 38.50%; font-size: small; font-weight: 500;">
+            R.B.S. VIDYA-VIHAR, BHAGALPUR</p>
+        <h3 class="barh32">Contact Us</h3>
+        <hr style="width: 20%; margin-left: 65%;margin-top: -10px;">
+        <img class="locationimg"
+            src="data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHZpZXdCb3g9IjAgMCAxNzIgMTcyIj48ZyBmaWxsPSJub25lIiBmaWxsLXJ1bGU9Im5vbnplcm8iIHN0cm9rZT0ibm9uZSIgc3Ryb2tlLXdpZHRoPSIxIiBzdHJva2UtbGluZWNhcD0iYnV0dCIgc3Ryb2tlLWxpbmVqb2luPSJtaXRlciIgc3Ryb2tlLW1pdGVybGltaXQ9IjEwIiBzdHJva2UtZGFzaGFycmF5PSIiIHN0cm9rZS1kYXNob2Zmc2V0PSIwIiBmb250LWZhbWlseT0ibm9uZSIgZm9udC13ZWlnaHQ9Im5vbmUiIGZvbnQtc2l6ZT0ibm9uZSIgdGV4dC1hbmNob3I9Im5vbmUiIHN0eWxlPSJtaXgtYmxlbmQtbW9kZTogbm9ybWFsIj48cGF0aCBkPSJNMCwxNzJ2LTE3MmgxNzJ2MTcyeiIgZmlsbD0ibm9uZSI+PC9wYXRoPjxnIGZpbGw9IiNmZmZmZmYiPjxwYXRoIGQ9Ik04NiwxNC4zMzMzM2MtMzMuNTc4NTEsMCAtNjAuOTE2NjcsMjcuMzM4MTUgLTYwLjkxNjY3LDYwLjkxNjY3YzAsMTUuMDc0MzMgNS41MzAxOCwyOC44OTg5OCAxNC42MTMyOCwzOS41Mjg2NWwwLjAyOCwwLjAyNzk5bDAuMDIwOTksMC4wMjhjMCwwIDI1LjkxNDQyLDI5LjU3MDIxIDM1LjE0MDQ2LDM4LjM3Mzg2YzYuMTc4MTMsNS44OTAyOSAxNi4wNDI3Myw1Ljg5MDI5IDIyLjIyMDg2LDBjMTAuNTE2MjksLTEwLjAzMDQ1IDM1LjE1NDQ2LC0zOC4zODc4NiAzNS4xNTQ0NiwtMzguMzg3ODZsMC4wMTQsLTAuMDIxbDAuMDIxLC0wLjAyMDk5YzkuMDkxMTUsLTEwLjYyOTc4IDE0LjYyMDI4LC0yNC40NTQzMSAxNC42MjAyOCwtMzkuNTI4NjVjMCwtMzMuNTc4NTEgLTI3LjMzODE1LC02MC45MTY2NyAtNjAuOTE2NjcsLTYwLjkxNjY3ek04NiwyNS4wODMzM2MyNy43NjgxNSwwIDUwLjE2NjY3LDIyLjM5ODUxIDUwLjE2NjY3LDUwLjE2NjY3YzAsMTIuNDUyODQgLTQuNTM4MTMsMjMuNzY2NzcgLTEyLjA0NDc2LDMyLjU0Mzk0Yy0wLjA0ODg4LDAuMDU1OSAtMjUuMjU3NjEsMjguODg2OTMgLTM0LjQzMzU5LDM3LjYzOWMtMi4xMjgwMywyLjAyODg4IC01LjI1NTYsMi4wMjg4OCAtNy4zODM2MywwYy03LjY2ODk1LC03LjMxNzg1IC0zNC4zNTU3NSwtMzcuNTUwODIgLTM0LjQzMzU5LC0zNy42MzlsLTAuMDA3LC0wLjAwN2MtNy40OTY2OCwtOC43NzY0OCAtMTIuMDMwNzYsLTIwLjA4NzU2IC0xMi4wMzA3NiwtMzIuNTM2OTVjMCwtMjcuNzY4MTUgMjIuMzk4NTEsLTUwLjE2NjY3IDUwLjE2NjY3LC01MC4xNjY2N3pNODYsNTMuNzVjLTYuNzE4NzUsMCAtMTIuNDM4NDEsMi43MTMwNiAtMTYuMTExLDYuODQ0NzNjLTMuNjcyNTksNC4xMzE2NyAtNS4zODksOS40Mjk1OCAtNS4zODksMTQuNjU1MjdjMCw1LjIyNTY5IDEuNzE2NDEsMTAuNTIzNjEgNS4zODksMTQuNjU1MjdjMy42NzI1OSw0LjEzMTY3IDkuMzkyMjUsNi44NDQ3MyAxNi4xMTEsNi44NDQ3M2M2LjcxODc1LDAgMTIuNDM4NDEsLTIuNzEzMDYgMTYuMTExLC02Ljg0NDczYzMuNjcyNTksLTQuMTMxNjcgNS4zODksLTkuNDI5NTggNS4zODksLTE0LjY1NTI3YzAsLTUuMjI1NjkgLTEuNzE2NDEsLTEwLjUyMzYxIC01LjM4OSwtMTQuNjU1MjdjLTMuNjcyNTksLTQuMTMxNjcgLTkuMzkyMjUsLTYuODQ0NzMgLTE2LjExMSwtNi44NDQ3M3pNODYsNjQuNWM0LjAzMTI1LDAgNi4zNzQwOSwxLjMxODE5IDguMDc2NSwzLjIzMzRjMS43MDI0MSwxLjkxNTIxIDIuNjczNSw0LjY3OTc5IDIuNjczNSw3LjUxNjZjMCwyLjgzNjgxIC0wLjk3MTA5LDUuNjAxMzkgLTIuNjczNSw3LjUxNjZjLTEuNzAyNDEsMS45MTUyMSAtNC4wNDUyNSwzLjIzMzQgLTguMDc2NSwzLjIzMzRjLTQuMDMxMjUsMCAtNi4zNzQwOSwtMS4zMTgxOSAtOC4wNzY1LC0zLjIzMzRjLTEuNzAyNDEsLTEuOTE1MjEgLTIuNjczNSwtNC42Nzk3OSAtMi42NzM1LC03LjUxNjZjMCwtMi44MzY4MSAwLjk3MTA5LC01LjYwMTM5IDIuNjczNSwtNy41MTY2YzEuNzAyNDEsLTEuOTE1MjEgNC4wNDUyNSwtMy4yMzM0IDguMDc2NSwtMy4yMzM0eiI+PC9wYXRoPjwvZz48L2c+PC9zdmc+">
+        <p style="margin-left: 68%; color: white; margin-top: -26px;">Near Dudhani-Rasikpur</p>
+        <p style="margin-left: 65%; color: white; margin-top: -15px;">Ashram Road,</p>
+        <p style="margin-left: 65%; color: white; margin-top: -13px;">Dumka, Jharkhand - 814101</p>
+        <br>
+        <img class="phoneimg1"
+            src="data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHZpZXdCb3g9IjAgMCAxNzIgMTcyIj48ZyBmaWxsPSJub25lIiBmaWxsLXJ1bGU9Im5vbnplcm8iIHN0cm9rZT0ibm9uZSIgc3Ryb2tlLXdpZHRoPSIxIiBzdHJva2UtbGluZWNhcD0iYnV0dCIgc3Ryb2tlLWxpbmVqb2luPSJtaXRlciIgc3Ryb2tlLW1pdGVybGltaXQ9IjEwIiBzdHJva2UtZGFzaGFycmF5PSIiIHN0cm9rZS1kYXNob2Zmc2V0PSIwIiBmb250LWZhbWlseT0ibm9uZSIgZm9udC13ZWlnaHQ9Im5vbmUiIGZvbnQtc2l6ZT0ibm9uZSIgdGV4dC1hbmNob3I9Im5vbmUiIHN0eWxlPSJtaXgtYmxlbmQtbW9kZTogbm9ybWFsIj48cGF0aCBkPSJNMCwxNzJ2LTE3MmgxNzJ2MTcyeiIgZmlsbD0ibm9uZSI+PC9wYXRoPjxnIGZpbGw9IiNmZmZmZmYiPjxwYXRoIGQ9Ik0xMzcuNzQzMzMsMTA5LjI5MTY3bC0xOC4wNiwtMi4wNzgzM2MtNC4zNzE2NywtMC41MDE2NyAtOC42NzE2NywxLjAwMzMzIC0xMS43NTMzMyw0LjA4NWwtMTMuMjU4MzMsMTMuMjU4MzNjLTEwLjE2OTUsLTUuMTYgLTE5LjM5MywtMTEuODg5NSAtMjcuMzYyMzMsLTE5Ljg2NmMtNy45NzY1LC03Ljk2OTMzIC0xNC43MDYsLTE3LjE5MjgzIC0xOS44NjYsLTI3LjM2MjMzbDEzLjI1ODMzLC0xMy4yNTgzM2MzLjA4MTY3LC0zLjA4MTY3IDQuNTg2NjcsLTcuMzgxNjcgNC4wODUsLTExLjc1MzMzbC0yLjA3ODMzLC0xOC4wNmMtMC44NiwtNy4yMzgzMyAtNi45NTE2NywtMTIuNjg1IC0xNC4yNjE2NywtMTIuNjg1aC0xMi4zOTgzM2MtOC4wOTgzMywwIC0xNC44MzUsNi43MzY2NyAtMTQuMzMzMzMsMTQuODM1YzEuODk5MTcsMzAuNTk0NSAxNS4wNzg2Nyw1OC4xMDczMyAzNS40MjQ4Myw3OC40NTM1YzIwLjM0NjE3LDIwLjM0NjE3IDQ3Ljg1OSwzMy41MjU2NyA3OC40NTM1LDM1LjQyNDgzYzguMDk4MzMsMC41MDE2NyAxNC44MzUsLTYuMjM1IDE0LjgzNSwtMTQuMzMzMzN2LTEyLjM5ODMzYzAsLTcuMzEgLTUuNDQ2NjcsLTEzLjQwMTY3IC0xMi42ODUsLTE0LjI2MTY3eiI+PC9wYXRoPjwvZz48L2c+PC9zdmc+">
+        <p style="margin-left: 67%; color: white; margin-top: -27px;">06434-357116</p>
+        <img class="phoneimg2"
+            src="data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHZpZXdCb3g9IjAgMCAxNzIgMTcyIj48ZyBmaWxsPSJub25lIiBmaWxsLXJ1bGU9Im5vbnplcm8iIHN0cm9rZT0ibm9uZSIgc3Ryb2tlLXdpZHRoPSIxIiBzdHJva2UtbGluZWNhcD0iYnV0dCIgc3Ryb2tlLWxpbmVqb2luPSJtaXRlciIgc3Ryb2tlLW1pdGVybGltaXQ9IjEwIiBzdHJva2UtZGFzaGFycmF5PSIiIHN0cm9rZS1kYXNob2Zmc2V0PSIwIiBmb250LWZhbWlseT0ibm9uZSIgZm9udC13ZWlnaHQ9Im5vbmUiIGZvbnQtc2l6ZT0ibm9uZSIgdGV4dC1hbmNob3I9Im5vbmUiIHN0eWxlPSJtaXgtYmxlbmQtbW9kZTogbm9ybWFsIj48cGF0aCBkPSJNMCwxNzJ2LTE3MmgxNzJ2MTcyeiIgZmlsbD0ibm9uZSI+PC9wYXRoPjxnIGZpbGw9IiNmZmZmZmYiPjxwYXRoIGQ9Ik0xMzcuNzQzMzMsMTA5LjI5MTY3bC0xOC4wNiwtMi4wNzgzM2MtNC4zNzE2NywtMC41MDE2NyAtOC42NzE2NywxLjAwMzMzIC0xMS43NTMzMyw0LjA4NWwtMTMuMjU4MzMsMTMuMjU4MzNjLTEwLjE2OTUsLTUuMTYgLTE5LjM5MywtMTEuODg5NSAtMjcuMzYyMzMsLTE5Ljg2NmMtNy45NzY1LC03Ljk2OTMzIC0xNC43MDYsLTE3LjE5MjgzIC0xOS44NjYsLTI3LjM2MjMzbDEzLjI1ODMzLC0xMy4yNTgzM2MzLjA4MTY3LC0zLjA4MTY3IDQuNTg2NjcsLTcuMzgxNjcgNC4wODUsLTExLjc1MzMzbC0yLjA3ODMzLC0xOC4wNmMtMC44NiwtNy4yMzgzMyAtNi45NTE2NywtMTIuNjg1IC0xNC4yNjE2NywtMTIuNjg1aC0xMi4zOTgzM2MtOC4wOTgzMywwIC0xNC44MzUsNi43MzY2NyAtMTQuMzMzMzMsMTQuODM1YzEuODk5MTcsMzAuNTk0NSAxNS4wNzg2Nyw1OC4xMDczMyAzNS40MjQ4Myw3OC40NTM1YzIwLjM0NjE3LDIwLjM0NjE3IDQ3Ljg1OSwzMy41MjU2NyA3OC40NTM1LDM1LjQyNDgzYzguMDk4MzMsMC41MDE2NyAxNC44MzUsLTYuMjM1IDE0LjgzNSwtMTQuMzMzMzN2LTEyLjM5ODMzYzAsLTcuMzEgLTUuNDQ2NjcsLTEzLjQwMTY3IC0xMi42ODUsLTE0LjI2MTY3eiI+PC9wYXRoPjwvZz48L2c+PC9zdmc+">
+        <p style="margin-left: 67%; color: white; margin-top: -30px;">6206486592, 8873008796</p>
+        <img class="mailimg"
+            src="data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHZpZXdCb3g9IjAgMCAxNzIgMTcyIj48ZyBmaWxsPSJub25lIiBmaWxsLXJ1bGU9Im5vbnplcm8iIHN0cm9rZT0ibm9uZSIgc3Ryb2tlLXdpZHRoPSIxIiBzdHJva2UtbGluZWNhcD0iYnV0dCIgc3Ryb2tlLWxpbmVqb2luPSJtaXRlciIgc3Ryb2tlLW1pdGVybGltaXQ9IjEwIiBzdHJva2UtZGFzaGFycmF5PSIiIHN0cm9rZS1kYXNob2Zmc2V0PSIwIiBmb250LWZhbWlseT0ibm9uZSIgZm9udC13ZWlnaHQ9Im5vbmUiIGZvbnQtc2l6ZT0ibm9uZSIgdGV4dC1hbmNob3I9Im5vbmUiIHN0eWxlPSJtaXgtYmxlbmQtbW9kZTogbm9ybWFsIj48cGF0aCBkPSJNMCwxNzJ2LTE3MmgxNzJ2MTcyeiIgZmlsbD0ibm9uZSI+PC9wYXRoPjxnIGZpbGw9IiNmZmZmZmYiPjxwYXRoIGQ9Ik0yOC42NjY2NywyOC42NjY2N2MtNy45MTkxNywwIC0xNC4zMzMzMyw2LjQxNDE3IC0xNC4zMzMzMywxNC4zMzMzM3YxMi40MTU2OWw3LjE2NjY3LDQuNDkzMTZsNy4xNjY2Nyw0LjQ5MzE2bDU3LjMzMzMzLDM1LjkzMTMybDU3LjMzMzMzLC0zNS42OTMzNmw3LjE2NjY3LC00LjQ2NTE3bDcuMTY2NjcsLTQuNDUxMTd2LTEyLjcyMzYzYzAsLTcuOTE5MTcgLTYuNDE0MTcsLTE0LjMzMzMzIC0xNC4zMzMzMywtMTQuMzMzMzN6TTI4LjY2NjY3LDQzaDExNC42NjY2N3Y1LjUxNDk3bC01Ny4zMzMzMywzNS42NzkzNmwtNTcuMzMzMzMsLTM1LjkzMTMyek0xNC4zMzMzMyw3Mi4zMjQ1NXY1Ni42NzU0NWMwLDcuOTE5MTcgNi40MTQxNywxNC4zMzMzMyAxNC4zMzMzMywxNC4zMzMzM2gxMTQuNjY2NjdjNy45MTkxNywwIDE0LjMzMzMzLC02LjQxNDE3IDE0LjMzMzMzLC0xNC4zMzMzM3YtNTYuMzk1NTFsLTE0LjMzMzMzLDguOTE2MzR2NDcuNDc5MTdoLTExNC42NjY2N3YtNDcuNjg5MTN6Ij48L3BhdGg+PC9nPjwvZz48L3N2Zz4=">
+        <p style="margin-left: 67%; color: white; margin-top: -27px;">ssvidyavihardumka@yahoo.com</p>
+        <img class="globe"
+            src="data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHZpZXdCb3g9IjAgMCAxNzIgMTcyIj48ZyBmaWxsPSJub25lIiBmaWxsLXJ1bGU9Im5vbnplcm8iIHN0cm9rZT0ibm9uZSIgc3Ryb2tlLXdpZHRoPSIxIiBzdHJva2UtbGluZWNhcD0iYnV0dCIgc3Ryb2tlLWxpbmVqb2luPSJtaXRlciIgc3Ryb2tlLW1pdGVybGltaXQ9IjEwIiBzdHJva2UtZGFzaGFycmF5PSIiIHN0cm9rZS1kYXNob2Zmc2V0PSIwIiBmb250LWZhbWlseT0ibm9uZSIgZm9udC13ZWlnaHQ9Im5vbmUiIGZvbnQtc2l6ZT0ibm9uZSIgdGV4dC1hbmNob3I9Im5vbmUiIHN0eWxlPSJtaXgtYmxlbmQtbW9kZTogbm9ybWFsIj48cGF0aCBkPSJNMCwxNzJ2LTE3MmgxNzJ2MTcyeiIgZmlsbD0ibm9uZSI+PC9wYXRoPjxnIGZpbGw9IiNmZmZmZmYiPjxwYXRoIGQ9Ik04NiwxNC4zMzMzM2MtMzkuNDk1NTIsMCAtNzEuNjY2NjcsMzIuMTcxMTUgLTcxLjY2NjY3LDcxLjY2NjY3YzAsMzkuNDk1NTIgMzIuMTcxMTUsNzEuNjY2NjcgNzEuNjY2NjcsNzEuNjY2NjdjMzkuNDk1NTIsMCA3MS42NjY2NywtMzIuMTcxMTUgNzEuNjY2NjcsLTcxLjY2NjY3YzAsLTM5LjQ5NTUyIC0zMi4xNzExNSwtNzEuNjY2NjcgLTcxLjY2NjY3LC03MS42NjY2N3pNODYsMjguNjY2NjdjMS43NzkzOSwwIDMuNzI5NzEsMC43Mjg0IDYuMjE0ODUsMy4wOTM0MmMyLjQ4NTEzLDIuMzY1MDMgNS4xODM1MSw2LjMyOTkgNy41MDI2LDExLjU0Nzg1YzEuNzY1NCwzLjk3MjE0IDMuMjA5NjIsOC44MjAwOCA0LjQ1MTE3LDE0LjAyNTM5aC0zNi4zMzcyNGMxLjI0MTU1LC01LjIwNTMxIDIuNjg1NzcsLTEwLjA1MzI1IDQuNDUxMTgsLTE0LjAyNTM5YzIuMzE5MDgsLTUuMjE3OTUgNS4wMTc0OCwtOS4xODI4MyA3LjUwMjYsLTExLjU0Nzg1YzIuNDg1MTQsLTIuMzY1MDMgNC40MzU0NiwtMy4wOTM0MiA2LjIxNDg1LC0zLjA5MzQyek02MC41NjY3MywzNC42NDM1NWMtMC40NjY3OSwwLjkzODE0IC0wLjk0ODM2LDEuODU3MzYgLTEuMzg1NzQsMi44NDE0N2MtMi41OTIzLDUuODMyNjcgLTQuNjA0NDIsMTIuNTgyOCAtNi4xMTY4NiwxOS44NDgzMWgtMTYuNzEyODljNS42MzYxNSwtOS43NjY5MSAxNC4wNjUzOSwtMTcuNjcwNCAyNC4yMTU1LC0yMi42ODk3OHpNMTExLjQzMzI3LDM0LjY0MzU1YzEwLjE1MDExLDUuMDE5MzcgMTguNTc5MzQsMTIuOTIyODcgMjQuMjE1NDksMjIuNjg5NzhoLTE2LjcxMjg5Yy0xLjUxMjQ0LC03LjI2NTUxIC0zLjUyNDU2LC0xNC4wMTU2MyAtNi4xMTY4NiwtMTkuODQ4MzFjLTAuNDM3MzgsLTAuOTg0MTEgLTAuOTE4OTYsLTEuOTAzMzMgLTEuMzg1NzUsLTIuODQxNDd6TTMwLjU0MjMyLDcxLjY2NjY3aDIwLjMyNDIyYy0wLjQzOTk1LDQuNjM1OTggLTAuNjk5ODcsOS40MTQzNiAtMC42OTk4NywxNC4zMzMzM2MwLDQuOTE4OTcgMC4yNTk5Miw5LjY5NzM1IDAuNjk5ODcsMTQuMzMzMzNoLTIwLjMyNDIyYy0xLjE3NjUxLC00LjU4ODE5IC0xLjg3NTY1LC05LjM2OTU0IC0xLjg3NTY1LC0xNC4zMzMzM2MwLC00Ljk2Mzc5IDAuNjk5MTQsLTkuNzQ1MTUgMS44NzU2NSwtMTQuMzMzMzN6TTY1LjMzOTg0LDcxLjY2NjY3aDQxLjMyMDMxYzAuNDk4ODksNC42MDUyMiAwLjgzOTg1LDkuMzY0MTQgMC44Mzk4NSwxNC4zMzMzM2MwLDQuOTY5MTkgLTAuMzQwOTYsOS43MjgxMSAtMC44Mzk4NSwxNC4zMzMzM2gtNDEuMzIwMzFjLTAuNDk4ODgsLTQuNjA1MjIgLTAuODM5ODQsLTkuMzY0MTQgLTAuODM5ODQsLTE0LjMzMzMzYzAsLTQuOTY5MTkgMC4zNDA5NiwtOS43MjgxMSAwLjgzOTg0LC0xNC4zMzMzM3pNMTIxLjEzMzQ3LDcxLjY2NjY3aDIwLjMyNDIyYzEuMTc2NTIsNC41ODgxOSAxLjg3NTY1LDkuMzY5NTQgMS44NzU2NSwxNC4zMzMzM2MwLDQuOTYzNzkgLTAuNjk5MTQsOS43NDUxNSAtMS44NzU2NSwxNC4zMzMzM2gtMjAuMzI0MjJjMC40Mzk5NSwtNC42MzU5OCAwLjY5OTg3LC05LjQxNDM2IDAuNjk5ODcsLTE0LjMzMzMzYzAsLTQuOTE4OTcgLTAuMjU5OTIsLTkuNjk3MzUgLTAuNjk5ODcsLTE0LjMzMzMzek0zNi4zNTEyNCwxMTQuNjY2NjdoMTYuNzEyODljMS41MTI0NCw3LjI2NTUxIDMuNTI0NTYsMTQuMDE1NjQgNi4xMTY4NiwxOS44NDgzMWMwLjQzNzM4LDAuOTg0MTEgMC45MTg5NiwxLjkwMzMzIDEuMzg1NzQsMi44NDE0OGMtMTAuMTUwMTEsLTUuMDE5MzggLTE4LjU3OTM0LC0xMi45MjI4NyAtMjQuMjE1NSwtMjIuNjg5Nzh6TTY3LjgzMTM4LDExNC42NjY2N2gzNi4zMzcyNGMtMS4yNDE1NSw1LjIwNTMxIC0yLjY4NTc3LDEwLjA1MzI1IC00LjQ1MTE3LDE0LjAyNTM5Yy0yLjMxOTA4LDUuMjE3OTYgLTUuMDE3NDgsOS4xODI4MyAtNy41MDI2LDExLjU0Nzg1Yy0yLjQ4NTEzLDIuMzY1MDMgLTQuNDM1NDYsMy4wOTM0MyAtNi4yMTQ4NSwzLjA5MzQzYy0xLjc3OTM5LDAgLTMuNzI5NzEsLTAuNzI4NCAtNi4yMTQ4NSwtMy4wOTM0M2MtMi40ODUxMywtMi4zNjUwMiAtNS4xODM1MiwtNi4zMjk4OSAtNy41MDI2LC0xMS41NDc4NWMtMS43NjU0LC0zLjk3MjE0IC0zLjIwOTYyLC04LjgyMDA4IC00LjQ1MTE4LC0xNC4wMjUzOXpNMTE4LjkzNTg3LDExNC42NjY2N2gxNi43MTI4OWMtNS42MzYxNSw5Ljc2NjkxIC0xNC4wNjUzOSwxNy42NzA0MSAtMjQuMjE1NDksMjIuNjg5NzhjMC40NjY3OSwtMC45MzgxNSAwLjk0ODM3LC0xLjg1NzM3IDEuMzg1NzUsLTIuODQxNDhjMi41OTIzLC01LjgzMjY3IDQuNjA0NDIsLTEyLjU4MjggNi4xMTY4NiwtMTkuODQ4MzF6Ij48L3BhdGg+PC9nPjwvZz48L3N2Zz4=">
+        <p style="margin-left: 67%; color: white; margin-top: -27px;">www.ssvidyavihardumka.com</p>
+    </footer>
+</body>
+
+</html>
